@@ -1,3 +1,7 @@
 import React from 'react';
 
-export default faq
+const FAQ = () => {
+
+}
+
+export default FAQ;

@@ -1,3 +1,7 @@
 import React from 'react';
 
-export default gallery
+const Gallery = () => {
+
+}
+
+export default Gallery;

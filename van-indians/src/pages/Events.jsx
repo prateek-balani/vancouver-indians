@@ -1,3 +1,5 @@
 import React from 'react';
+const Events = () => {
 
-export default events
+}
+export default Events;

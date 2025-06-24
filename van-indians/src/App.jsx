@@ -11,20 +11,22 @@ import Footer from './components/footer';
 
 function App() {
   return (
-    <Router>
-      <>
-     <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/faq" element={<FAQ />} />
-        <Route path="/events" element={<Events />} />
-      </Routes>
-      <Footer />
-       </>
-    </Router>
+    <div className="min-h-screen w-full bg-gradient-to-t from-green-300 via-transparent to-orange-300">
+      <Router>
+        <>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/events" element={<Events />} />
+          </Routes>
+          <Footer />
+        </>
+      </Router>
+    </div>
 
-    
+
   );
 
 }

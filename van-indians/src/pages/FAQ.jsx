@@ -27,10 +27,10 @@ const FAQ = () => {
 
 
     return (
-        <div className="max-w-2xl mx-auto py-10 px-4">
+        <div className="max-w-2xl mx-auto py-10 px-10">
             <h2 className="text-4xl font-bold text-center mb-8">Frequently Asked Questions</h2>
 
-            <div className="space-y-4">
+            <div className="space-y-8">
                 {faqs.map((faq, index) => (
                     <div className="collapse collapse-arrow bg-base-200" key={index}>
                         <input type="checkbox" />

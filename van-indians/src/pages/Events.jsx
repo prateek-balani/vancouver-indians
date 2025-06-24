@@ -28,7 +28,7 @@ const Events = () => {
 
             <div className="space-y-8">
                 {eventList.map((event, index) => (
-                    <div className="hero bg-base-20 ">
+                    <div className="hero bg-base-20 border border-black-600" key={index}>
                         <div className="hero-content flex-col lg:flex-row-reverse">
                             <img
                                 src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"

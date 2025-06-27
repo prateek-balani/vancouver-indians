@@ -14,7 +14,7 @@ const Home = () => {
                     </p>
                 </section>
 
-                <section className="px-4 py-8">
+                <section className="px-4 py-4">
                     <Carousel />
                 </section>
                 <section className='px-6 py-12 max-w-screen-lg mx-auto'>
@@ -22,7 +22,7 @@ const Home = () => {
                     <div className='card bg-base-100 shadow-md p-6'>
                         <h3 className='text-lg font-bold'>Who we are</h3>
                         <p className="text-lg mt-2 text-gray-600">
-                            Vancouver Indians is a grassroots community built by and for Indian immigrants living in the Greater Vancouver Area. Whether you’ve just landed or have been here for years, our goal is to make sure you never feel like you’re navigating this new chapter alone. We’re here to share resources, celebrate our culture, and help you find your people.
+                            Vancouver Indians Group was founded by <b>Sunil Mantri</b> 16 years ago and is a grassroots community built by and for Indian immigrants living in the Greater Vancouver Area. Whether you’ve just landed or have been here for years, our goal is to make sure you never feel like you’re navigating this new chapter alone. We’re here to share resources, celebrate our culture, and help you find your people.
                         </p>
                     </div>
                     <div className='card bg-base-100 shadow-md p-6'>

@@ -20,7 +20,7 @@ const Carousel = () => {
 
   return (
     <div className="flex justify-center mt-6">
-      <div className="relative w-full max-w-4xl h-96 overflow-hidden rounded-xl shadow-md">
+      <div className="relative w-full max-w-7xl h-96 overflow-hidden rounded-xl shadow-md">
         <div
           className="flex transition-transform duration-500 ease-in-out"
           style={{ transform: `translateX(-${currentSlide * 100}%)` }}
@@ -30,7 +30,7 @@ const Carousel = () => {
               key={index}
               src={img.src}
               alt={img.alt}
-              className="w-full h-96 flex-shrink-0"
+              className="w-full h-96 flex-shrink-0 object-cover"
             />
           ))}
         </div>

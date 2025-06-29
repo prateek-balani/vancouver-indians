@@ -1,11 +1,12 @@
 import { useState } from 'react'
 
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/home'
-import FAQ from './pages/FAQ'
-import Gallery from './pages/Gallery'
-import Events from './pages/Events'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/home';
+import FAQ from './pages/FAQ';
+import Gallery from './pages/Gallery';
+import Events from './pages/Events';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
 

@@ -51,7 +51,7 @@ const Home = () => {
                         Vancouver Indians Group was founded by <b>Sunil Mantri</b> 16 years ago and is a grassroots community built by and for Indian immigrants living in the Greater Vancouver Area. Whether you’ve just landed or have been here for years, our goal is to make sure you never feel like you’re navigating this new chapter alone. We’re here to share resources, celebrate our culture, and help you find your people.
                     </p>
                 </div>
-                <div className='card bg-base-100 bg-white/60 backdrop-blur-md shadow-md p-6 m-4'>
+                <div className='card bg-base-100 bg-white/60 backdrop-blur-md shadow-md p-6 m-4' >
                     <h3 className='text-lg font-bold'>What we do</h3>
                     <p className="text-lg mt-2 text-gray-600">
                         From curated WhatsApp groups to local meetups, cultural events, job boards, and food recommendations — we help Indian newcomers build a meaningful life in Vancouver. Our goal is to bridge the gap between back home and your new home, by offering a platform that connects students, working professionals, and families alike.
@@ -65,9 +65,9 @@ const Home = () => {
                 </div>
                 <ShortAds />
             </section>
-            <section className="text-center mt-12 mb-20">
+            <section className="text-center mt-12 mb-20 scroll-mt-24" id="whatsapp" >
                 <div className="flex justify-center gap-4 mt-8">
-                    <button className="btn btn-xs sm:btn-lg md:btn-md lg:btn-lg xl:btn-xl" onClick={() => setShowModal(true)}>Join WhatsApp Group</button>
+                    <button  className="btn btn-xs sm:btn-lg md:btn-md lg:btn-lg xl:btn-xl" onClick={() => setShowModal(true)}>Join WhatsApp Group</button>
                     <button className="btn btn-xs sm:btn-lg md:btn-md lg:btn-lg xl:btn-xl" onClick={() => window.open("https://www.facebook.com/share/p/16YbmoSvbr/")}>Join Facebook Group</button>
                 </div>
             </section>

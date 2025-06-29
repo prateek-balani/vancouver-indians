@@ -11,8 +11,8 @@ const LongAds = () => {
             {ads.length > 0 ? (
                 <>
                     {/* for desktop */}
-                    < div className='hidden xl:block absolute w-60 left-1 top-80 h-full shrink-0 pr-4'>
-                        <div className="space-y-4 sticky top-80 ">
+                    < div className='hidden xl:block absolute w-60 left-1 top-60 h-full shrink-0 pr-4'>
+                        <div className="space-y-4 sticky top-60 ">
                             {ads.map((ad, index) => (
                                 <div key={index} className="h-[500px] shadow-lg overflow-hidden">
                                     <img

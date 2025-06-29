@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 
 import Carousel from '../components/carousel';
 import LongAds from '../components/long-ads';
+import ShortAds from '../components/short-ads';
 const Home = () => {
     const [showModal, setShowModal] = useState(false);
     const [number, setNumber] = useState("");
@@ -66,7 +67,7 @@ const Home = () => {
                         Immigrating isn’t easy. It comes with challenges, especially when you’re far from familiar faces. Vancouver Indians was created to make that transition smoother — to help you build friendships, share experiences, and embrace the best of both worlds without losing your identity. Our strength lies in our unity, and we welcome everyone who wants to be part of something bigger than just themselves.
                     </p>
                 </div>
-                <LongAds />
+                <ShortAds />
             </section>
             <section className="text-center mt-12 mb-20">
                 <div className="flex justify-center gap-4 mt-8">

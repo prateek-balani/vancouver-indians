@@ -43,7 +43,7 @@ const Home = () => {
 
             <section className='justify-center px-6 py-12 max-w-screen-lg mx-auto gap-6'>
 
-                <LongAds />
+                {/* <LongAds /> */}
                 <h2 className='text-4xl font-bold text-center mb-10'>About</h2>
                 <div className='card bg-white/60 backdrop-blur-md shadow-md p-6 m-4'>
                     <h3 className='text-lg font-bold'>Who we are</h3>
@@ -63,7 +63,7 @@ const Home = () => {
                         Immigrating isn’t easy. It comes with challenges, especially when you’re far from familiar faces. Vancouver Indians was created to make that transition smoother — to help you build friendships, share experiences, and embrace the best of both worlds without losing your identity. Our strength lies in our unity, and we welcome everyone who wants to be part of something bigger than just themselves.
                     </p>
                 </div>
-                <ShortAds />
+                {/* <ShortAds /> */}
             </section>
             <section className="text-center mt-12 mb-20 scroll-mt-24" id="whatsapp" >
                 <div className="flex justify-center gap-4 mt-8">
